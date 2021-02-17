@@ -1,2 +1,3 @@
 # fohp-covid19-data
-Covid-19 data extracted from FOPH website
+
+Source: https://www.covid19.admin.ch/en/overview
