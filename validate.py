@@ -9,7 +9,7 @@ with open('vacc_data.csv', 'r', newline='') as csvfile:
 
 print(lastline)
 
-for f in lastline:
+for f in lastline[:-2]:  # ignore received columns (might be 0)
     if f == '':
         raise BaseException('empty field in last line')
     if f == '0':
